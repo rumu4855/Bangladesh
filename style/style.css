@@ -210,6 +210,26 @@ header nav{
     color: #FFC239;
 }
 
+.comment-container{
+    padding: 24px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    border-radius: 16px;
+}
+
+.comment{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;  
+    padding: 24px 0;
+}
+
+.comment-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    line-height: 24px;
+    opacity: 0.8;
+}
+
 /* News section style here */
 
 #news{
