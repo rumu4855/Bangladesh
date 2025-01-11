@@ -209,3 +209,61 @@ header nav{
     background-color: #FFFFFF;
     color: #FFC239;
 }
+
+/* News section style here */
+
+#news{
+    margin: 80px 0;
+}
+
+.news-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.news-description{
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.news-section{
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+}
+
+.news-img{
+    border-radius: 24px;
+}
+
+.news-section-title{
+    font-size: 32px;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-bottom: 12px;
+    color: #0E0E0E;
+    opacity: 0.8;
+
+}
+
+.news-time{
+    font-size: 16px;
+    color: #323232;
+    opacity: 0.7;
+    margin: 12px 0;
+    line-height: 24px;
+}
+
+.news-decription{
+    font-size: 16px;
+    color: #323232;
+    opacity: 0.7;
+    margin: 12px 0;
+    line-height: 24px;
+}
