@@ -287,10 +287,12 @@ header nav{
     margin: 12px 0;
     line-height: 24px;
 }
+/* donate section style here */
 
 #donate{
     margin: 80px 0;
     text-align: center;
+    
 }
 
 .section-title{
@@ -309,16 +311,8 @@ header nav{
     margin-bottom: 32px;
 }
 
-.donate-box-container{
-    /* max-width: 90%; */
-}
 
-.donate-amount-box{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 24px;
-    
-}
+
 
 .donate-amount{
     padding: 40px;
@@ -327,6 +321,24 @@ header nav{
     font-weight: bold;
     opacity: 0.8;
     border-radius: 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-right: 24px;
+    
+}
+
+.donate-amount1{
+    padding: 40px;
+    background-color: #C6E4D6;
+    font-size: 40px;
+    font-weight: bold;
+    opacity: 0.8;
+    border-radius: 16px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-right: 24px;
     
 }
 
@@ -343,12 +355,3 @@ input{
     
 }
 
-.donate-amount1{
-    padding: 40px;
-    background-color: #C6E4D6;
-    font-size: 40px;
-    font-weight: bold;
-    opacity: 0.8;
-    border-radius: 16px;
-    
-}
